@@ -12,7 +12,7 @@ class BuscadorImagenes:
                 return  # Salimos del programa si no hay entrada válida
 
             # Construimos la URL para la consulta en la API de Unsplash
-            self.url_consulta = f"https://api.unsplash.com/search/photos?query={usuario_consulta}&client_id=J5xUwP7rF_HmQYOhuwA8M5ZiPSGR8HQpMaxKurae_eU"
+            self.url_consulta = f"https://api.unsplash.com/search/photos?query={usuario_consulta}&client_id=TU_API_KEY"
 
             # Hacemos la petición GET a la API
             respuesta = requests.get(self.url_consulta)
