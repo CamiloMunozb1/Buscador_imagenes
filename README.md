@@ -23,18 +23,18 @@ Este es un script en Python que permite buscar imágenes utilizando la API de Un
 
 2. Instala las dependencias:
 
-    pip install requests
+       pip install requests
 
 
 3. Configura tu API Key:
    
-   Modifica el código y reemplaza TU_API_KEY con tu clave de Unsplash.
+      Modifica el código y reemplaza TU_API_KEY con tu clave de Unsplash.
 
 ## Uso
 
 Ejecuta el script con:
 
-  python buscador_imagenes.py
+     python buscador_imagenes.py
 
 Luego ingresa la palabra clave de la imagen que deseas buscar.
 
